@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.homeContainer {
+  align-items: center;
+  background-color: antiquewhite
+};
+
+.childContainer {
+  width: fit-content;
+  height: 250px;
+  margin: 40px;
+  font-size: 80px;
+  font-weight: 900px;
+}
+
+.redColor {
+  color:brown;
+}
+
+.imageParent {
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  width: 100px;
+}
+
